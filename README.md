@@ -19,13 +19,16 @@ git config user.email EMAIL_GITHUB
 mkdir NIM_ANDA
 cd NIM_ANDA
 ```
-5. Di dalam folder tersebut, buat sebuah folder dengan nama Praktikum-n, n = praktikum keberapa, contoh: Praktikum-1
+5. Di dalam folder tersebut, buat sebuah folder dengan nama Praktikum-n, n = praktikum ke-berapa, contoh: Praktikum-1
 ```
 mkdir "Praktikum-n"
 cd "Praktikum-n"
 ```
 6. Semua file untuk tugas praktikum ke-n, disimpan ke dalam folder Praktikum-n
 7. Setiap membuat file atau melakukan perubahan, lakukan proses commit dengan pesan yang jelas
-8. Setelah asistensi dan tugas Anda disetujui, push seluruh file jawaban yang telah anda buat
+```
+git commit -m "pesan mengenai penambahan atau perubahan apa yang Anda lakukan"
+```
+8. Setelah asistensi dan tugas Anda disetujui, push seluruh file jawaban yang telah Anda buat
 9. Masuk ke akun GitHub Anda, dan buka repositori yang telah Anda fork dan clone. Lihat perubahan yang terjadi pada repositori tersebut dan pastikan bahwa tugas yang telah Anda push sesuai dan berada pada repositori tersebut.
 10. Pilih menu Pull request dan lakukan pull request pada tugas praktikum Anda
