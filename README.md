@@ -8,7 +8,7 @@ git clone https://github.com/YOUR_USERNAME/LAB-PM-06-2024.git
 ```
 3. Setelah Anda clone, masuk ke folder hasil clone tersebut lalu buat branch dengan nama NIM Anda 
 ```
-cd LAP-AP-02-2023
+cd LAP-PM-06-2024
 git branch NIM_ANDA
 git checkout NIM_ANDA
 git config user.name USERNAME_GITHUB
